@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+}
+
 li a {
     text-decoration: none;
     opacity: 0.75;
@@ -14,12 +18,14 @@ li a:hover {
 
 .links {
     list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
 }
 
 .links li {
     font-size: .8em;
     display: inline;
-    padding: 5px 10px;
+    padding: 4px 10px;
     margin-left: 0;
     cursor: pointer;
 }
@@ -29,11 +35,6 @@ li a:hover {
     width: 100%;
     display: flex;
     justify-content: space-between;
-}
-
-.nav ul, .footer ul {
-    margin: 5px 0;
-    padding: 0;
 }
 
 .main {
@@ -87,6 +88,7 @@ li a:hover {
 
 #search-box {
     display: block;
+    background: white;
     padding: 0 2em;
     margin-bottom: 2em;
     width: 100%;
